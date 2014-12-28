@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smartdental4.views.ShareActivity" >
+
+
+
+          <LinearLayout
+          android:id="@+id/share_form"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <AutoCompleteTextView
+              android:id="@+id/username"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="昵称"
+              android:maxLines="1"
+              android:singleLine="true" />
+
+          <EditText
+              android:id="@+id/share_content"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="分享内容"
+              android:lines="3" />
+
+          <Button
+              android:id="@+id/share_post_button"
+              style="?android:textAppearanceSmall"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:text="立即分享"
+              android:textStyle="bold" />
+          <Button
+              android:id="@+id/cancel_button"
+              style="?android:textAppearanceSmall"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="toDiaryView"
+              android:text="取消"
+              android:textStyle="bold" />
+      </LinearLayout>
+
+</LinearLayout>

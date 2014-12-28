@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smartdental4.views.ForumActivity" >
+
+   <WebView
+       android:id="@+id/forum_webView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/Menu_Bottom"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true" />
+   
+   <LinearLayout      
+	    android:id="@+id/Menu_Bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	 	android:baselineAligned="false"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:background="@drawable/menu_border" >
+
+       <LinearLayout 
+            android:id="@+id/Index_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="toDiaryView">
+
+           <ImageView
+               android:id="@+id/Index_Image"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginLeft="20dp"
+               android:background="@drawable/home01" />
+  
+              <TextView  
+                android:id="@+id/Index_Text"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center_vertical"
+                android:text="首页"
+                android:textSize="15dp"                
+                android:textColor="#000000"
+                />  
+      </LinearLayout>
+      <LinearLayout 
+            android:id="@+id/Statistic_Button"
+            android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="toStatisticView">
+              		
+              <ImageView  
+                android:id="@+id/Statistic_Image"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_marginLeft="20dp"	                
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/statistic01"  
+                />  
+              <TextView  
+                android:id="@+id/Statistic_Text"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center_vertical"
+                android:text="统计"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />  	           
+      </LinearLayout>
+      <LinearLayout 
+            android:id="@+id/Forum_Button"
+            android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="toForumView">
+              		
+              <ImageView  
+                android:id="@+id/Forum_Image"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_marginLeft="20dp"	                
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/forum01"  
+                />  
+              <TextView  
+                android:id="@+id/Forum_Text"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center_vertical"
+                android:text="论坛"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />  	
+                         
+      </LinearLayout>
+      </LinearLayout>
+
+</RelativeLayout>

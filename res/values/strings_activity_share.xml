@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="title_activity_share">分享</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">昵称</string>
+    <string name="error_invalid_username">无效的昵称</string>
+    <string name="error_incorrect_share_content">请输入分享消息</string>
+    <string name="error_field_required">请输入昵称</string>
+
+</resources>

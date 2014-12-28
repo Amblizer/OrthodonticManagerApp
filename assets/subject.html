@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="HandheldFriendly" content="True">
+    	<meta name="MobileOptimized" content="320">
+    	<meta content="telephone=no" name="format-detection">
+    	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
+		<title>SmartDental 论坛首页</title>
+
+		<script type="text/javascript" src="js/jquery2.1.1.js"></script>
+		<script type="text/javascript" src="js/json.js"></script>
+		<script type="text/javascript" src="js/post_new.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/single_post.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/subject.css">
+	</head>
+	
+	<body>
+
+	<div class="subject-head">
+		<div class="subject-title">
+			专题分类
+		</div>
+	</div>
+	<div>
+		<div class="subject">
+		</div>
+        <div class="subject">
+        </div>
+        <div class="subject">
+        </div>
+        <div class="subject">
+        </div>
+		<div id="bottom_space" style="padding: 1em 0 0 0">
+		</div>
+	</div>
+	<script type="text/javascript">
+	$('.subject').height(($(window).height()-$(".subject-head").height()-5*$("#bottom_space").innerHeight())/4);
+	</script>
+
+	</body>
+</html>

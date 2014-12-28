@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_statistic">统计数据</string>
+
+    <string-array name="surgeryChoice">
+        <item>请选择</item>
+        <item>常规检查</item>
+        <item>拔牙期</item>
+        <item>分牙期</item>
+        <item>戴矫正器</item>
+        <item>戴保持器(with皮筋)</item>
+        <item>戴保持器</item>
+    </string-array>
+
+    <string name="group_name">by 立方空间 group</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">正畸管家</string>
+    <string name="app_description">伴随你的正畸\n记录 | 帮助 | 提醒 | 知识</string>
+    <string name="title_activity_set_clock">日程详情</string>
+    <string name="title_activity_alarm_dialogue">日程提醒</string>
+    <string name="title_activity_forum">论坛</string>
+    <string name="certify">确认</string>
+    <string name="title_activity_doctor_advice">医嘱</string>
+
+</resources>
